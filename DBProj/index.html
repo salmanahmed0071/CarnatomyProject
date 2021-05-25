@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sabir & Babar</title>
+    <link rel="stylesheet" a href="CSS/bootstrap.css">
+    <script src="JS/bootstrap.js"></script>
+    <script src="JS/bootstrapjquery.js"></script>
+    <script src="JS/jquery-3.3.1.js"></script>
+    <script src="JS/popper.js"></script>
+    <link rel="stylesheet" a href="CSS/myStyle.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+ 
+        <div class="jumbotron text-center" style="margin-bottom:0;background-color:#FF004D;color:whitesmoke">
+                <h1>Sabir & Babar</h1>
+              </div>
+   
+    <!--Top navigation bar-->
+      <nav class="navbar navbar-expand sticky-top"> <!--Navbar placed at the top-->
+           <div class="container">
+             <!--  <a class="navbar-brand" href="#">LOGO</a> -->
+                        <div class="nav navbar-nav">
+              
+                                <ul style="margin-left: 150px">
+                                    <li><a href="#about">ABOUT</a></li>
+                                    <li><a href="#services">SERVICES</a></li>
+                                    <li><a href="#portfolio">NEW ARRIVALS</a></li>
+                                    <li><a href="#pricing">UNSTITCHED</a></li>
+                                    <li><a href="#contact">READY TO WEAR</a></li>
+             
+                                </ul>
+                         </div>
+
+        
+           </div>
+           
+        </nav>
+
+
+
+        <!--Adding a carousel to it-->
+        <div id="demo" class="carousel slide" data-ride="carousel" >
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="media/m2.jpg" alt="design 1" width="100%" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="media/m1.jpg" alt="Chicago" width="100%" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="media/m3.jpg" alt="New York" width="100%" height="500">
+                  </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+
+        <div class="container-fluid" style="margin-top: 20px;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card myCard">
+                        <div class="card-header text-center" style="background-color: #FF004D;color:whitesmoke">
+                            <h4>Sizzlin Winter 19</h4>
+                            <br> <!--to create a certain distance in between-->
+                            <p>Clean and crisp juxtaposed with the rich colours and fabrics including handcrafted embroideries for three-piece</p>
+                            
+                        </div>
+                        <div class="card-body">
+                            <img src="media/t1.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                        <div class="card myCard">
+                                <div class="card-header text-center" style="background-color: #FF004D;color:whitesmoke">
+                                    <h4>Sizzlin Winter 19</h4>
+                                    <br> <!--to create a certain distance in between-->
+                                    <p>Clean and crisp juxtaposed with the rich colours and fabrics including handcrafted embroideries for three-piece</p>
+                                    
+                                </div>
+                                <div class="card-body">
+                                    <img src="media/t1.jpg" width="100%">
+                                </div>
+                            </div>
+        
+                </div>
+                <div class="col-sm-4">
+                        <div class="card myCard">
+                                <div class="card-header text-center" style="background-color: #FF004D;color:whitesmoke">
+                                    <h4>Sizzlin Winter 19</h4>
+                                    <br> <!--to create a certain distance in between-->
+                                    <p>Clean and crisp juxtaposed with the rich colours and fabrics including handcrafted embroideries for three-piece</p>
+                                    
+                                </div>
+                                <div class="card-body">
+                                    <img src="media/t1.jpg" width="100%">
+                                </div>
+                            </div>
+        
+                </div>
+        
+            </div>
+        </div>    
+
+
+        <div class="container"style="margin-top: 20px;margin-bottom:20px">
+           <div class="row">
+             <div class="offset-sm-3 col-sm-6">
+                <form action="customer_connect.php" method="post">
+                  <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    fName:<input class="form-control" type="text"  name="firstName">
+                    <label for="lastName">Last Name</label>
+                    lName:<input class="form-control" type="text" name="lastName">
+                    <label for="Email">Email Address</label>
+                    Eml:<input class="form-control" type="text" name="Email">
+                    <lable for="cellNum">Phone/Cell Number</lable>
+                   cellN: <input type="number" class="form-control" name="cellNum">
+                    <br>
+                    <input type="submit" class="btn btn-primary">
+                  </div>
+                </form>
+             </div>
+           </div>
+        </div>
+
+        <footer class="container-fluid text-center" style="background-color: #FF004D;color:white;padding-top:30px;padding-bottom: 30px;">
+            <h3>Powered by M.Ahmad Chaudhary,Salman Ahmed, Shahbaz Ali</h3>
+        </footer>
+
+
+</body>
+</html>

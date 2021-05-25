@@ -1,0 +1,47 @@
+
+.carnatomy{
+    letter-spacing: 1px;
+    opacity:1.0;
+
+}
+.carnatomy input[type=text]{
+  height: 45px;
+  width: 350px;
+  border: 1px solid black;
+  padding: 10px;
+
+    opacity:1.0;
+      color:black;
+
+}
+
+.carnatomy input[type=number]
+{
+  height: 45px;
+  width: 180px;
+  border: 1px solid black;
+  padding: 10px;
+
+    opacity:1.0;
+  color:black;
+
+
+}
+.carnatomy form{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   padding:25px;
+   opacity:1.0;
+}
+
+.carnatomy button{
+  border:1px solid white;
+  padding:10px;
+  color: white;
+  
+}
+
+.carnatomy button:hover{
+  background-color: black;
+  color:white;
+  border:1px solid white;
+}
